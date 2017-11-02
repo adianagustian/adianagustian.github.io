@@ -1,5 +1,5 @@
 export class Welcome{
-  heading = 'Welcome to the Aurelia Navigation App!';
+  heading = 'Welcome to the adiana Navigation App!';
   firstName = 'adiana';
   lastName = 'gustian';
 
@@ -15,7 +15,7 @@ import 'bootstrap';
 
 export class App {
   configureRouter(config, router){
-    config.title = 'Aurelia';
+    config.title = 'adiana';
     config.map([
       { route: ['','welcome'], name: 'welcome', moduleId: 'welcome', nav: true, title:'Welcome' }
     ]);
